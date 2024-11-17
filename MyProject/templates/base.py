@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +11,6 @@
     <header>
         <h1>Welcome to My Django Project</h1>
     </header>
-
+    <script scr = "{% static "js/main.js" %}"></script>
 </body>
 </html>
