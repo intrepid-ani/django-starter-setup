@@ -20,6 +20,7 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home'), # This is the page directly from the 
+    path('', views.welcome, name='welcome'), # This is the page directly from the base.py file
+    path('home/', views.home, name='home'), # This is loads home page
     path('core/', include('core.urls')), # This line is to include the urls from the core app
 ]
