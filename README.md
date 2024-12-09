@@ -18,7 +18,7 @@ The **Django Starter Template** is a pre-configured Django project designed to s
 ### **Step 1: Clone the Repository**
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/django-starter-setup.git
+git clone https://github.com/intrepid-ani/django-starter-setup.git
 cd django-starter-template
 ```
 
